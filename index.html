@@ -125,12 +125,12 @@
 
       <script>
         function changeImage() {
-          var randomNumber = Math.floor(Math.random() * 3000) + 1;
+          var randomNumber = Math.floor(Math.random() * 10000) + 1;
           var img = document.getElementById("randomImageMain");
           img.src = "https://bafybeibn2itqdg5ff74g2nfd5zbgaore7hrgl63ejaplpq7afksjx6fxwa.ipfs.dweb.link/" + randomNumber + ".png";
         }
 
-        setInterval(changeImage, 5000);
+        setInterval(changeImage, 1000);
       </script>
 
       <div class="row position-relative z-20">
